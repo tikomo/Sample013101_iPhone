@@ -18,6 +18,14 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    
+#pragma marks - 文字列
+    
+    NSString* msg = @"Hello World";
+    
+    NSLog(msg);
+    
 }
 
 - (void)didReceiveMemoryWarning
